@@ -114,6 +114,11 @@ footer {
   animation: fadeIn 1s ease-out forwards;
 }
 
+html.js [data-reveal="last"] {
+  opacity: 0;
+  animation: fade 1s ease-out forwards;
+}
+
 @keyframes typing {
   0% {
     width: 0;
@@ -170,6 +175,9 @@ footer {
   * {
     animation: none !important;
     transition: none !important;
+  }
+  [data-reveal="last"] {
+    opacity: 1 !important;
   }
   html:focus-within {
     scroll-behavior: auto;

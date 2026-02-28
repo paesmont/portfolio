@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js");
+
 document.addEventListener("DOMContentLoaded", () => {
   const terminalBlocks = document.querySelectorAll(".terminal-block");
   const reduceMotion = window.matchMedia(
@@ -49,5 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       currentDelay * 1000 - 500,
     );
+  });
+
+  const revealLastElements = document.querySelectorAll("[data-reveal='last']");
+  revealLastElements.forEach((element) => {
+    element.style.animationDelay = `${currentDelay}s`;
   });
 });
