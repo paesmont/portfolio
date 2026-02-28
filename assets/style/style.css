@@ -126,6 +126,25 @@ a:focus-visible {
   color: var(--text);
 }
 
+@media (max-height: 900px) {
+  .layout {
+    padding: 2.25rem 1.5rem 3rem;
+    gap: 2rem;
+  }
+
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  .tagline {
+    margin-bottom: 1.25rem;
+  }
+
+  .stack {
+    margin-bottom: 1.5rem;
+  }
+}
+
 @media (max-width: 900px) {
   .layout {
     grid-template-columns: 1fr;
