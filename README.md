@@ -1,4 +1,4 @@
-# bashln portfolio
+# paesmont portfolio
 
 Minimal, single-page portfolio with a split layout and Catppuccin Mocha palette.
 
@@ -18,5 +18,5 @@ python -m http.server
 Open `http://localhost:8000`.
 
 ## Links
-- GitHub: https://github.com/bashln
+- GitHub: https://github.com/paesmont
 - Email: mailto:lpdmonteiro@gmail.com
